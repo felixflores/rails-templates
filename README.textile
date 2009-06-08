@@ -1,0 +1,9 @@
+h1. Rails Template
+
+h2. Usage
+
+Open authenticated.rb and base.rb and change template_directory to the appropriate directory
+
+Then generate a new rails app:
+
+rails SampleApp -m rails_template_location/authenticated.rb
