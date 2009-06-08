@@ -1,9 +1,7 @@
 template_directory = "/Users/Felix/Sites/Projects/rails-templates/"
 load_template "#{template_directory}base.rb"
 
-root_controller = ask("Root controller for application")
-
-#------------------ install gem -----------------------------------------
+root_controller = ask("Root controller for application.")
 
 gem "authlogic"
 rake "gems:install"

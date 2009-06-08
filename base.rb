@@ -2,8 +2,8 @@ template_directory = "/Users/Felix/Sites/Projects/rails-templates/"
 
 # Basic Site Information
 site_name = ask "Name of site website."
-port = ask "App port."
-host = ask "App hostname."
+port = ask "App port. Usually 3000. (ex. localhost:3000)"
+host = ask "App hostname. (ex. example.com)"
 
 # --------------------------------- Initialize git --------------------------------- #
 # Copy database.yml for distribution use
