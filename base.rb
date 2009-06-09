@@ -47,7 +47,7 @@ git :add => ".", :commit => "-m 'mislav-will_paginate added'"
 gem 'faker'
 git :add => ".", :commit => "-m 'faker added'"
 
-load_template "#{template_directory}base_webrat.rb"
+load_template "#{template_directory}base/base_webrat.rb"
 
 plugin 'asset_packager', :git => 'git://github.com/sbecker/asset_packager.git', :submodule => true
 git :add => ".", :commit => "-m 'Asset packager added'"
